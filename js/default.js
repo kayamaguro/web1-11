@@ -1,5 +1,7 @@
 //確認ダイアログを表示
 ver result = window.confirm('準備ok?');
+//結果表示
+document.getElementById('choice').textContent = result;
 
 
 //答えを用意

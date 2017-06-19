@@ -19,8 +19,3 @@ message ='0～3の数字を入力してください！';
 }
 
 document.getElementById('choice').textContent = message;
-
-while(answer<3)
-for (answer = 0; answer < 3; answer++) {
-    if (answer == 3) {
-        break;

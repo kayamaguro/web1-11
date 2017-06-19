@@ -15,5 +15,12 @@ message = '残念！！！もっと小さいです';
 message ='0～3の数字を入力してください！';
 }
 
-//結果を表示
+for (i = 0; i < 3; i++) {
+    if (i == 3) {
+        break;
+    }
+
+  //結果を表示
 document.getElementById('choice').textContent = message;
+
+

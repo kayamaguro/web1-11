@@ -18,11 +18,9 @@ else{
 message ='0～3の数字を入力してください！';
 }
 
-int i;
-for (i = 0; i < 3; i++) {
-    System.out.println(i);
-}
-
 document.getElementById('choice').textContent = message;
 
-
+while(answer<3)
+for (answer = 0; answer < 3; answer++) {
+    if (answer == 3) {
+        break;

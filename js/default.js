@@ -1,14 +1,10 @@
-//確認ダイアログを表示
-ver result = window.confirm('準備ok?');
-//結果表示
-document.getElementById('choice').textContent = result;
 
 
 //答えを用意
-ver number = Math.floor(Math.random()*3);
-ver answer = parseInt(window.prompt('数あてゲーム！0～2の数字を入力してください！'));
+var number = Math.floor(Math.random()*3);
+var answer = parseInt(window.prompt('数あてゲーム！0～2の数字を入力してください！'));
 
-ver message;
+var message;
 if(answer === number){
 message = 'あたり！';
 }else if(answer < number){

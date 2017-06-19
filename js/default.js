@@ -7,20 +7,22 @@ var answer = parseInt(window.prompt('数あてゲーム！0～2の数字を入�
 var message;
 if(answer === number){
 message = 'あたり！';
-}else if(answer < number){
+}
+else if(answer < number){
 message = '残念！！！もっと大きいです';
-}else if(answer > number){
+}
+else if(answer > number){
 message = '残念！！！もっと小さいです';
-}else{
+}
+else{
 message ='0～3の数字を入力してください！';
 }
 
+int i;
 for (i = 0; i < 3; i++) {
-    if (i == 3) {
-        break;
-    }
+    System.out.println(i);
+}
 
-  //結果を表示
 document.getElementById('choice').textContent = message;
 
 

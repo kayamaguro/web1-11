@@ -1,3 +1,7 @@
+//確認ダイアログを表示
+ver result = window.confirm('準備ok?');
+
+
 //答えを用意
 ver number = Math.floor(Math.random()*3);
 ver answer = parseInt(window.prompt('数あてゲーム！0～2の数字を入力してください！'));
